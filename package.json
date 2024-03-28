@@ -1,0 +1,17 @@
+{
+  "name": "stealthy-web-automation",
+  "version": "1.0.0",
+  "description": "A script that automates the login and submission process for websites, including handling two-factor authentication, using Playwright with stealth mode.",
+  "main": "index-module-stealth.mjs",
+  "scripts": {
+    "start": "node --experimental-modules index-module-stealth.mjs"
+  },
+  "author": "Mehdi Bourgeois",
+  "license": "ISC",
+  "dependencies": {
+    "otpauth": "^9.2.2",
+    "playwright": "^1.42.1",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
